@@ -1,0 +1,28 @@
+body {
+    font-family:"BBH Sans Bogle";
+    background-color:#418BCD;
+    color:#282C33;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:Oswald;
+    font-size:30pt;
+
+}
+
+header{
+    text-align: center;
+}
+
+#hero{
+    background-color:#5472A0;
+    text-align: center;
+}
+
+#hero img {
+    width: 300px;
+}
+
+footer{
+    background-color: #5472A0;
+}
