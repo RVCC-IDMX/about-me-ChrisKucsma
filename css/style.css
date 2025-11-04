@@ -31,8 +31,22 @@ footer{
     background-color:#5472A0;
 }
 #gallery {
-    border: 2px solid #999999;
+    border: 2px  #999999;
 }
 #gallery figure {
     text-align: center;
+}
+
+#lit{
+    border: 2px  #999999;
+}
+#lit{
+background-color:#5472A0;
+}
+#lit{
+    text-align: center;
+}
+#lit div{
+max-width: 40rem;
+margin: 0 auto;
 }
