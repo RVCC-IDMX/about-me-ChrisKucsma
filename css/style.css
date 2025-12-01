@@ -23,9 +23,7 @@ header{
     width: 300px;
 }
 
-footer{
-    background-color: #5472A0;
-}
+
 /*hobbies section*/
 #hobbies {
     background-color:#5472A0;
@@ -35,6 +33,13 @@ footer{
 }
 #gallery figure {
     text-align: center;
+}
+
+#video{
+    aspect-ratio: width: 30px;
+  height: auto;;
+text-align: center;
+background-color:#5472A0;
 }
 
 #lit{
