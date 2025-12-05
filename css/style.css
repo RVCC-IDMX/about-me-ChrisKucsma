@@ -55,3 +55,11 @@ background-color:#5472A0;
 max-width: 40rem;
 margin: 0 auto;
 }
+/*Contact Form*/
+#formElements {
+    display:grid;
+
+}
+#contact {
+
+}
