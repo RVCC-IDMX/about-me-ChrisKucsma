@@ -9,7 +9,29 @@ h1, h2, h3, h4, h5, h6{
     font-size:30pt;
 
 }
+img {
+max-width: fit-content;
+max-height: 300px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
 
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #000; 
+    transition: 0.3s;
+}
 header{
     text-align: center;
 }
@@ -30,23 +52,28 @@ header{
 }
 #gallery {
     border: 2px  #999999;
+    display: flex;
+    gap: 10px;
+
 }
 #gallery figure {
     text-align: center;
 }
-
+#DP {
+transform: rotate(-90deg);
+}
 #video{
     aspect-ratio: width: 30px;
-  height: auto;;
-text-align: center;
-background-color:#5472A0;
-
+  height: auto;
+  text-align: center;
+  background-color: #5472A0;
 }
+
 #video iframe {
   width: 100%;
-  max-width: 560px; /* optional limit */
+  max-width: 560px; 
   height: auto;
-  aspect-ratio: 16 / 9; /* keeps YouTube ratio perfect */
+  aspect-ratio: 16 / 9; 
   border: none;
 }
 
@@ -122,10 +149,10 @@ legend {
     padding : 10px;
 }
 
-@media (max-widthL 600px){
+@media (max-width: 600px){
     #video
     max-width: 150px;
-max-height:200px;
+    max-height: 200px;
 }
 @media (max-width: 600px) {
 
