@@ -9,9 +9,34 @@ h1, h2, h3, h4, h5, h6{
     font-size:30pt;
 
 }
+img {
+max-width: fit-content;
+max-height: 300px;
 
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    transition: 0.3s;
+}
 header{
     text-align: center;
+
 }
 /* hero section*/
 #hero{
@@ -24,33 +49,56 @@ header{
 }
 
 
-/*hobbies section*/
+/*hobbies/picture section*/
 #hobbies {
     background-color:#5472A0;
 }
+#bio {
+    background-color:#5472A0;
+}
+
 #gallery {
     border: 2px  #999999;
+    display: flex;
+    gap: 10px;
+
+
 }
 #gallery figure {
     text-align: center;
+
+}
+#gallery img{
+max-width: 300px;
+border-radius: 2%;
+}
+#gallery img a:hover {
+color:#333;
+background-color: aliceblue;
+border-radius: 330px;
+outline: none;
 }
 
+#DP {
+transform: rotate(-90deg);
+}
+/* Embedded Video*/
 #video{
     aspect-ratio: width: 30px;
-  height: auto;;
-text-align: center;
-background-color:#5472A0;
-
+  height: auto;
+  text-align: center;
+  background-color: #5472A0;
 }
+
 #video iframe {
   width: 100%;
-  max-width: 560px; /* optional limit */
+  max-width: 560px;
   height: auto;
-  aspect-ratio: 16 / 9; /* keeps YouTube ratio perfect */
+  aspect-ratio: 16 / 9;
   border: none;
 }
 
-/* Center the section */
+
 #video {
   width: 90%;
   margin: 0 auto;
@@ -122,10 +170,12 @@ legend {
     padding : 10px;
 }
 
-@media (max-widthL 600px){
+/* Media States*/
+
+@media (max-width: 600px){
     #video
     max-width: 150px;
-max-height:200px;
+    max-height: 200px;
 }
 @media (max-width: 600px) {
 
@@ -160,4 +210,7 @@ max-height:200px;
   #video h2 {
     font-size: 1.2rem;
   }
+}
+@media (max-width: 600px){
+
 }

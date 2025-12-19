@@ -19,75 +19,128 @@
     <body>
         <header>
 
+
             <nav class="navbar">
                 <div class="logo">
-                    <img src="img/logo-96X96.svg" alt="Bird">
+                    <img src="img/CK-monogram-from-MakeMonogram.com-1765412493993.svg"
+                        alt="logo">
                     <h1> Web Dev 1 </h1>
                 </div>
-                <div class="navlinks">
-                    <ul>
-                        <li><a href="#bio" class=navlinks> Bio</a></li>
-                        <li><a href="#gallery" class=navlinks> Gallery</a></li>
-                        <li><a href="#lit" class=navlinks> Blog</a></li>
-                        <li><a href="#contact" class=navlinks> Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
+                <input type="checkbox" id="navcheck" class="navcheckbox">
+                <label for="navcheck" class="navtoggle" <svg class="menu"
+                    viewBox="0 0 448 512" width="100" title="times"></svg>
+                    <div class="navlinks">
+                        <ul>
+                            <li><a href="#bio" class=navlinks> Bio</a></li>
+                            <li><a href="#gallery" class=navlinks> Gallery</a>
+                            </li>
+                            <li><a href="#lit" class=navlinks> Blog</a></li>
+                            <li><a href="#contact" class=navlinks> Contact
+                                    Me</a>
+                            </li>
+                        </ul>
+                    </div>
             </nav>
-            <img src="img/logo-96X96.svg" alt="Bird">
-            <h1>
-                Web Dev 1
-            </h1>
-        </header>
 
+        </header>
+        <!--Hero-->
         <main>
             <section id="hero">
-                <img src="img/avataaars.png" alt="My avatar">
+                <img src="img/CK-logo-black.png" alt="logo">
                 <div>
-                    <p> Chris Kucsma</p>
-                    <p>Flemington, NJ</p>
+                    <p> Christopher Kucsma</p>
+                    <p>Located in Flemington, NJ</p>
                 </div>
             </section>
             <section id="bio">
-                <div>
-                    <p>
-                        I haven't figured out a career path yet
-                    </p>
-                    <p></p>
-                </div>
+
+                <h2>Biography </h2>
+                <p>
+                    My name is Christopher Kucsma. As of the making of this, I
+                    am ready to start my
+                    final semester at RVCC. I went to South Hunterdon Regional
+                    High School where I
+                    first got my start at HTML, but back then it didn’t fully
+                    catch my attention
+                    until now. Before that, y first introduction to coding was
+                    at an out-of-school
+                    program which taught how to code for games, using programs
+                    like Unity.
+                </p>
+                <img src="img/IMG_1721.png" alt="selfie">
+                <figcaption>Less than flattering selfie</figcaption>
             </section>
-            <h2>Biography </h2>
+            <!--Hobbies-->
             <section id="hobbies">
                 <h2> Hobbies: </h2>
                 <ul>
-                    <li>Video Games</li>
-                    <li>Reading</li>
-                    <li>Creative Writing</li>
-                    <li>Comic Book Collecting</li>
+                    <li>Video Games--I believe that video games are one of the
+                        best forms of art. A lot of games are
+                        made with the intent to have fun, and that’s exactly
+                        what a game should be. It’s
+                        even better when a game is paired with a great story,
+                        which is what I really
+                        like to look for. Expedition 33 is my prime example-Game
+                        of the Year winner,
+                        2025.
+                    </li>
+
+                    <li>Reading--I’ve always liked to read. I’ve always been an
+                        avid Star Wars fan, and there are
+                        certain books that have sprung from the franchise that
+                        have always been my
+                        favorites, such as Heir to the Empire by Timothy Zahn
+                        and his trilogies.</li>
+
+                    <li>Creative Writing--Creative writing has always been a
+                        great source for me to be able to be
+                        creative. I first started back in a class about it in my
+                        senior year, and when
+                        our final project was to do a short, 5 page,
+                        double-spaced story, I thought that
+                        wasn’t enough space to tell something truly developed.
+                        It was first attempt at
+                        actually writing something, but I turned in ten+ pages
+                        of a sci-fi tale: easily
+                        still one of my favorites.</li>
+
+                    <li>Comic Book Collecting--I first got into comics after I
+                        watched Avengers: Infinity War (which was my
+                        first ever Marvel movie outside of the first two
+                        Guardians of the Galaxy’s).
+                        Since then, I’ve got hundreds of comics of all sorts of
+                        characters, art styles,
+                        writing styles, and much more. There’s a lot of ideas in
+                        them that are so wacky
+                        that it’s awesome.</li>
+
                 </ul>
             </section>
+            <!--Photo Gallery-->
             <section id="gallery">
                 <h2>Photo Gallery</h2>
                 <hr>
                 <figure>
-                    <img src="Lego-640w.jpg" alt="Lego Rivendell">
+                    <img src="img/Lego-640w.jpg" alt="Lego Rivendell">
                     <figcaption> Lego Rivendell-Lord of the Rings. One of my
                         favorites.</figcaption>
                 </figure>
                 <hr>
                 <figure>
-                    <img src="Comics-640w.jpg" alt="Dp/Wolverine">
+                    <img id="DP" src="img/Comics-640w.jpg" alt="Dp/Wolverine">
                     <figcaption>Some of my most newly prized comics. Btoh are
                         variant covers, and I got the last at my local store.
                     </figcaption>
                 </figure>
                 <hr>
                 <figure>
-                    <img src="MoonKnight-640w.jpg" alt="RivalsVictory">
+                    <img src="img/MoonKnight-640w.jpg" alt="RivalsVictory">
                     <figcaption>I play as Moon Knight in Marvel Rivals. He's a
                         very fun character to play.</figcaption>
                 </figure>
             </section>
+            <br>
+            <!--Embeded Video-->
             <section id="video">
                 <h2>A Short Video</h2>
 
@@ -98,65 +151,65 @@
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen></iframe>
             </section>
+            <!--Blog-->
             <article id="lit">
-                <h2>An excerpt from Bram Stoker's Dracula</h2>
+                <h2>CSS Image Sprites: A Blog </h2>
                 <div>
-                    <p>The castle is on the very edge of a terrible precipice. A
-                        stone falling from
-                        the window would fall a thousand feet without touching
-                        anything! As far as
-                        the eye can reach is a sea of green tree tops, with
-                        occasionally a deep rift
-                        where there is a chasm. Here and there are silver
-                        threads where the rivers
-                        wind in deep gorges through the forests.</p>
+                    <p>CSS Image Sprites are a technique that's used where many
+                        small images are used(like buttons or UI elements),
+                        and they're combined into one larger file that's called
+                        a sprite sheet. The thing is, the browser doesn't
+                        download each image speartely,but instead it downloads
+                        just the singla image. Once it does that, CSS is used to
+                        show only the specific part of the sprite that
+                        corresponds to the desired icon.
+                    </p>
+                    <p>
+                        The reason that sprites became popular was because they
+                        signifigantly reduced the number of HTTP requests
+                        a page needed to make, especially when there were a lot
+                        of small images involved. When there's fewer requests to
+                        handle,
+                        that means faster loading times. This was definetly
+                        prevalent then under older web protocols. Another
+                        benefit to sprites was that they prevented flickering
+                        when switching images-for example, if a button were to
+                        change its appearance when hovering over it.
+                    </p>
+                    <p>
+                        This doesn't mean that Sprites didn't come with
+                        downsides. Let's say a new icon had to added in. That
+                        creates a new set of complications. That means that the
+                        composite image has to be modified in order to fit the
+                        new image in,
+                        and that means that a lot of coordinates have to be
+                        adjusted in CSS. IT just takes up a lot of time to fix.
+                        If an icon is moved or removed, then other postiions can
+                        shift, and when that happens the sprites across the
+                        stylesheet have to update.
+                        Also, Sprites have lost some of their usefulness as of
+                        late. There's programs like HTTP/2 that educe the number
+                        of multiple small requests,
+                        and so the advantage that CSS sprites had back in the
+                        first HTTP isn't as strong.
+                    </p>
+                    <p>
+                        But those downsides don't mean that CSS sprites are
+                        useless, as they can be used in specifc scenarios. WHen
+                        dealing with small images that don't need or rarely need
+                        updates,
+                        sprites can sill be useful. Since sprites can preload
+                        all the assets at once, it can improve consistency, and
+                        as said before, prevent flickering on hover. CSS sprites
+                        are still good tools as
+                        methods of web development develop, but their use has
+                        changed to more niche situations. It just needs the
+                        right context.
+                    </p>
 
-                    <p>I am beginning to feel this nocturnal existence tell on
-                        me. It is destroying
-                        my nerve. I start at my own shadow, and am full of all
-                        sorts of horrible
-                        imaginings. God knows that there is ground for my
-                        terrible fear in this
-                        accursed place! I looked out over the beautiful expanse,
-                        bathed in soft
-                        yellow moonlight till it was almost as light as day.</p>
-
-                    <p>We kept on ascending, with occasional periods of quick
-                        descent, but in the
-                        main always ascending. Suddenly, I became conscious of
-                        the fact that the
-                        driver was in the act of pulling up the horses in the
-                        courtyard of a vast
-                        ruined castle, from whose tall black windows came no ray
-                        of light, and whose
-                        broken battlements showed a jagged line against the
-                        moonlit sky.</p>
-
-                    <p>How these papers have been placed in sequence will be
-                        made manifest in the
-                        reading of them. All needless matters have been
-                        eliminated, so that a
-                        history almost at variance with the possibilities of
-                        later-day belief may
-                        stand forth as simple fact. There is throughout no
-                        statement of past things
-                        wherein memory may err, for all the records chosen are
-                        exactly contemporary,
-                        given from the standpoints and within the range of
-                        knowledge of those who
-                        made them.</p>
-
-                    <p>The morning of 16 May broke bright and cheerful. The sun
-                        shone warm and
-                        brilliant, and the birds sang sweetly in the trees. The
-                        very air seemed full
-                        of hope and happiness. I felt that the cloud of gloom
-                        which had been hanging
-                        over us for so long was lifting, and that we were about
-                        to enter upon a new
-                        phase of our strange and terrible experience.</p>
 
                 </div>
+                <!--Contact Info-->
                 <section id="contact">
                     <h2>Contact Us: </h2>
                     <form id="contactForm" name="contactForm" method="post"
@@ -213,10 +266,14 @@
                     </fieldset>
                 </section>
             </article>
+            <!--Footer-->
         </main>
         <p>Now on Netlify!</p>
         <footer>
             &copy;2025 - Christopher Kucsma
+            <br>
+            <a href="https://github.com/RVCC-IDMX/about-me-ChrisKucsma">Link to
+                my Repo!</a>
         </footer>
 
     </body>
