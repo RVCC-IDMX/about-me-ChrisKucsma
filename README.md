@@ -6,9 +6,9 @@
 ####
 ### Color Scheme
 ## As Blue is my favorite color, I decided I wanted to use it for my project.  I know that oragne and blue are opposites, but I didn't think the clashing contrast would work well with my work, and green would continously show up as not eligible for accessibility options with my blues.  Here are the colors:
-#
-#
-#
+# #418BCD
+# #333
+# #5472A0
 #
 #
 ### Citations
