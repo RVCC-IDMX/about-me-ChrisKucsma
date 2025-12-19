@@ -14,6 +14,6 @@
 ### Citations
 ## Coyier, Chris on Oct 24, C. (2017, June 27). CSS sprites: What they are, why they’re cool, and how to use them: CSS-tricks. CSS. https://css-tricks.com/css-sprites/
 ## GeeksforGeeks. (2024, July 23). CSS image sprites. https://www.geeksforgeeks.org/css/css-image-sprites/
-##
+## An easy guide to CSS sprites | udacity | tech | udacity. Udacity. (n.d.). https://www.udacity.com/blog/2021/07/an-easy-guide-to-css-sprites.html
 ## License
 ## Open-Source
